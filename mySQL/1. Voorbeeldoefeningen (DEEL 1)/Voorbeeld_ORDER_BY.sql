@@ -1,0 +1,9 @@
+-- https://dodona.ugent.be/nl/courses/2088/series/22554/activities/1694144428
+
+SELECT
+    PRODUCT_CODE,
+    DESCRIPTION
+FROM PRODUCT
+ORDER BY
+    PRODUCT_CODE DESC,
+    DESCRIPTION ASC;

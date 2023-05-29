@@ -1,0 +1,6 @@
+-- https://dodona.ugent.be/nl/courses/2088/series/22556/activities/1153980697
+
+SELECT p.DESCRIPTION, dc.RATE
+FROM PRODUCT p
+    JOIN PRODUCT_CODE pc ON p.PRODUCT_CODE = pc.PROD_CODE
+    JOIN DISCOUNT_CODE dc ON pc.DISCOUNT_CODE = dc.DISCOUNT_CODE;

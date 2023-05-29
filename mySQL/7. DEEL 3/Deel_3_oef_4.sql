@@ -1,0 +1,9 @@
+-- https://dodona.ugent.be/nl/courses/2088/series/22557/activities/816267407
+
+SELECT COUNT(NAME) FROM MANUFACTURER;
+
+SELECT COUNT(DISTINCT NAME)
+FROM (
+        SELECT DISTINCT NAME
+        FROM MANUFACTURER
+    );

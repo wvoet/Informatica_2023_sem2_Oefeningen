@@ -1,0 +1,9 @@
+-- https://dodona.ugent.be/nl/courses/2088/series/26607/activities/1028495853
+
+SELECT
+    PRODUCT_CODE,
+    MIN(PURCHASE_COST),
+    MAX(PURCHASE_COST)
+FROM PRODUCT
+WHERE AVAILABLE = 'TRUE'
+GROUP BY PRODUCT_CODE;

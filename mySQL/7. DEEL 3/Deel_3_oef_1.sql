@@ -1,0 +1,11 @@
+-- https://dodona.ugent.be/nl/courses/2088/series/22557/activities/599669097
+
+SELECT
+    C.NAME,
+    PO.QUANTITY,
+    PO.SALES_DATE
+FROM PURCHASE_ORDER PO
+    JOIN CUSTOMER C ON PO.CUSTOMER_ID = C.CUSTOMER_ID
+WHERE
+    C.NAME LIKE "B%"
+    AND PO.QUANTITY >= 100;
