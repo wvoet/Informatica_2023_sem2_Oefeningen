@@ -1,0 +1,56 @@
+dt {
+    font-style: italic;
+}
+
+section>figure>figcaption {
+    font-style: italic;
+}
+
+legend {
+    color: red;
+}
+
+aside {
+    border: 2px dashed #1C3D6C;
+    /* UGent-blauw */
+    padding: 10px;
+    margin-left: 15px;
+    float: right;
+    width: 30%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.blauw {
+    color: #1C3D6C;
+}
+
+#naam:hover {
+    background-color: #FAB813;
+    /* UGent-geel */
+}
+
+ul {
+    list-style-type: none;
+}
+
+fieldset {
+    border: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
