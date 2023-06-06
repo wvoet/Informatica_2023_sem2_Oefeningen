@@ -1,6 +1,6 @@
 # Informatica_2023_sem2_Oefeningen
 Deze repository bevat mijn oplossingen en mogelijke oplossingen van de prof voor de onderdelen:
-+ HTML      (moet nog geupload worden)
++ HTML      (compleet)
 + PYHTON    (moet nog geupload worden)
 + SQL/mySQL (compleet)
 
